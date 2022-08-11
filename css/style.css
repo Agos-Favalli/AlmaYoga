@@ -114,6 +114,8 @@ main .subtitulo{
     font-size: 1rem     
 }
 .menu nav ul li:hover{
+    transform: scale(1.5);
+    transition: 5s;
     border: 1px solid snow;
 }
 .menu{
