@@ -1,0 +1,1277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*registrarse*/
+
+.registrarse{
+    margin: 0 auto;
+    width: 300px;
+    padding: 50px;
+    background-color: rgb(208, 211, 212);
+    background-image: url(../img/e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: large;
+    font-style: oblique;
+    border: 3px;
+}
+.registro1{
+    text-align: center;
+}
+.nombre{
+    margin: 10px;
+    border: 5px;
+    border-style: groove;
+}
+.apellido{
+    margin: 10px;
+    border: 5px;
+    border-style: groove;
+}
+.email{
+    margin: 10px;
+    border: 5px;
+    border-style: groove;
+}
+.contraseña{
+    margin: 10px;
+    border: 5px;
+    border-style: groove;
+}
+
+/*iniciar sesion*/
+
+.iniciarSesion{
+    margin: 0 auto;
+    width: 300px;
+    padding: 50px;
+    background-color: rgb(235, 230, 225);
+    font-size: large;
+    font-style: oblique;
+    border: 3px;
+}
+.email{
+    margin: 10px;
+    border: 5px;
+    border-style: groove;
+}
+.contraseña{
+    margin: 10px;
+    border: 5px;
+    border-style: groove;
+}
+.iniciar{
+    text-align: center;
+}
+
+/*index*/
+
+.grid{
+    display: flex;
+    justify-content: center;
+}
+.grid .registro:hover{
+    border: 1px solid snow;
+}
+.registro{
+    background-color: rgb(238, 238, 245);
+    border-style: outset;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    font-style: oblique;
+    font-size: x-small;
+}
+.bodys{
+    background-color: rgb(235, 230, 225);
+}
+.encabezado{
+    background-image: url(../img/F7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 3rem 3rem 3rem 3rem;
+    margin-bottom: 1rem;
+}
+main .titulo{
+    animation: star 10s ease-out infinite;
+    display: flex;
+    justify-content: center;
+    color: lightslategrey;
+    font-family: 'Cormorant SC', serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    animation-name: yoga;
+    animation-duration: 6s;
+}
+main .subtitulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 1rem     
+}
+.menu nav ul li:hover{
+    border: 1px solid snow;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu nav ul{
+    display: flex;
+    column-gap: 5px;
+}
+.menu nav ul li{
+    list-style: none;
+    font-size: x-small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:auto auto ;
+    grid-template-rows:0.5fr 0.7fr 0.5fr 0.5fr ;
+    grid-template-areas: "beneficios beneficios"
+                         "parrafo parrafo"
+                         "imagen-1 imagen-2" 
+                         "imagen-3 imagen-4";
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.imagen-5{
+    display: none;
+}
+.beneficios{
+    grid-area: beneficios;
+    color: lightslategray ;
+    font-style: oblique;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.parrafo{
+    grid-area: parrafo;
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.imagen-1{
+    grid-area: imagen-1;
+    margin: 10px 5px 10px 5px;
+}
+.imagen-2{
+    grid-area: imagen-2;
+    margin: 10px 5px 10px 5px;
+}
+.imagen-3{
+    grid-area: imagen-3;
+    margin: 0px 5px 10px 5px;
+}
+.imagen-4{
+    grid-area: imagen-4;
+    margin: 0px 5px 10px 5px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: x-small;
+}
+.footer ul li{
+    list-style: none;
+}
+.item-fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 3%;
+}
+#pie-de-pagina{
+    background-color: rgb(235, 230, 225);
+    text-align: center;
+    font-size: 15px;
+    border-color: black;
+    border-style: double;
+    margin-top: 100px;
+}
+@keyframes yoga{
+    0% {
+        opacity: 0;
+        transform: scale(1.5) translateY(-0.75em);
+      }   
+}
+
+/*que es el yoga*/
+
+.yoga{
+    font-size: smaller;
+    color: lightslategray;
+    background-image: linear-gradient(to bottom, rgb(194, 188, 188), white);
+    border-style: double;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.definicion{
+    font-size: x-small;
+    margin: 10px 50px 0px 50px;
+    padding: 10px 10px 10px 10px;
+    border-style: dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen-c{
+    display: none;
+}
+.imagen-d{
+    display: none;
+}
+.grid-1{
+    display: grid;
+    grid-template-columns:auto auto auto auto ;
+    grid-template-rows: 0.5fr 0.4fr 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-areas: "subtitulo2 subtitulo2 subtitulo2 subtitulo2"
+                         "parrafo2 parrafo2 parrafo2 parrafo2"
+                         "tipo-1 tipo-1 tipo-2 tipo-2" 
+                         "tipo-3 tipo-4 tipo-4 tipo-5"
+                         "tipo-6 tipo-6 tipo-7 tipo-7"
+                         "imagen-a imagen-a imagen-b imagen-b"
+                         ;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.subtitulo2{
+    grid-area: subtitulo2;
+    color: lightslategray;
+    font-style: oblique;
+}
+.parrafo2{
+    grid-area: parrafo2;
+    font-size: small;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+}
+main .tipo-1:hover{
+    transform: rotate(-10deg);
+    box-shadow: 1px 1px rgb(124, 100, 100);
+}
+.tipo-1{
+    grid-area: tipo-1;
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+main .tipo-2:hover{
+    transform: rotate(10deg);
+    box-shadow: 1px 1px rgb(124, 100, 100);
+}
+.tipo-2{
+    grid-area: tipo-2;
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+main .tipo-3:hover{
+    transform: rotate(-10deg);
+    box-shadow: 1px 1px rgb(124, 100, 100);
+}
+.tipo-3{
+    grid-area: tipo-3;
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+main .tipo-4:hover{
+    transform: scale(0deg);
+    box-shadow: 1px 1px rgb(124, 100, 100);
+}
+.tipo-4{
+    grid-area: tipo-4;
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+main .tipo-5:hover{
+    transform: rotate(10deg);
+    box-shadow: 1px 1px rgb(124, 100, 100);
+}
+.tipo-5{
+    grid-area: tipo-5;
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+main .tipo-6:hover{
+    transform: rotate(-10deg);
+    box-shadow: 1px 1px rgb(124, 100, 100);
+}
+.tipo-6{
+    grid-area: tipo-6;
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+main .tipo-7:hover{
+    transform: rotate(10deg);
+    box-shadow: 1px 1px rgb(124, 100, 100);
+}
+.tipo-7{
+    grid-area: tipo-7;
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+}
+.imagen-a{
+    grid-area: imagen-a;
+}
+.imagen-b{
+    grid-area: imagen-b;
+}
+
+ /*chakras*/
+
+.queSonLosChakras{
+    font-size: smaller;
+    color: lightslategray;
+    background-image: linear-gradient(to bottom, rgb(194, 188, 188), white);
+    border-style: double;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+} 
+.section-p{
+    font-size: x-small;
+    text-align: center;
+    margin: 10px 50px 0px 50px;
+    padding: 10px 10px 10px 10px;
+    border-style: dotted;
+}
+.chakras{
+    font-size: x-small;
+    background-image: url(../img/chakras.png);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    list-style: none;
+    margin: 1rem 3rem 1rem 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.chakras .raiz:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.chakras .sacro:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.chakras .plexoSolar:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.chakras .cardiaco:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.chakras .laringeo:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.chakras .tercerOjo:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.chakras .corona:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.chakras{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto auto auto auto ;
+    grid-template-areas: "corona corona"
+                         "tercerOjo laringeo"
+                         "cardiaco cardiaco"
+                         "plexoSolar sacro"
+                         "raiz raiz";                                  ;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.raiz{
+    grid-area: raiz;
+    color: red;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+.sacro{
+    grid-area: sacro;
+    color: orangered;
+    font-family: 'Inconsolata', monospace;
+}
+.plexoSolar{
+    grid-area: plexoSolar;
+    color: rgb(190, 190, 3);
+    font-family: 'Inconsolata', monospace;
+}
+.cardiaco{
+    grid-area: cardiaco;
+    color: green;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+.laringeo{
+    grid-area: laringeo;
+    color: rgb(96, 200, 235);
+    font-family: 'Inconsolata', monospace;
+}
+.tercerOjo{
+    grid-area: tercerOjo;
+    color: blue;
+    font-family: 'Inconsolata', monospace;
+}
+.corona{
+    grid-area: corona;
+    color: blueviolet;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+/*posturas*/
+
+.asanas{
+    font-size: smaller;
+    color: lightslategray;
+    background-image: linear-gradient(to bottom, rgb(194, 188, 188), white);
+    border-style: double;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.parrafo1{
+    font-size: x-small;
+    text-align: center;
+    margin: 10px 50px 0px 50px;
+    padding: 10px 10px 10px 10px;
+    border-style: dotted;
+}
+.subtitulo3{
+    color: lightslategray;
+    font-family: 'Cormorant SC', serif; font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-decoration: underline;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+
+}
+.posturas{
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto  ;
+    grid-template-areas:"sukhasana sukhasana"
+                        "img-1 definicionSukhasana"
+                        "tadasana tadasana"
+                        "img-2 definicionTadasana"
+                        "balasana balasana"
+                        "img-3 definicionBalasana"
+                        "puente puente"
+                        "img-4 definicionPuente"
+                        "bidalasana bidalasana"
+                        "img-5 definicionBidalasana"
+                        "carpa carpa"
+                        "img-6 definicionCarpa"
+                        "cobra cobra"
+                        "img-7 definicionCobra"
+                        "silla silla"
+                        "img-8 definicionSilla"
+                        "uttasana uttasana"
+                        "img-9 definicionUttasana"
+                        "arbol arbol"
+                        "img-10 definicionArbol"
+                        "triangulo triangulo"
+                        "img-11 definicionTriangulo"
+                        "tabla tabla"
+                        "img-12 definicionTabla"
+                        "plancha plancha"
+                        "img-13 definicionPlancha"
+                        ;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.sukhasana{
+    grid-area: sukhasana;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(134, 204, 181);
+}
+.img-1:hover{
+    transform: scale(1.5);
+}
+.img-1{
+    grid-area: img-1;
+    padding-left: 10px;
+}
+.definicionSukhasana{
+    grid-area: definicionSukhasana;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.tadasana{
+    grid-area: tadasana;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(206, 168, 241);
+}
+.img-2:hover{
+    transform: scale(1.5);
+}
+.img-2{
+    grid-area: img-2;
+    padding-left: 20px;
+}
+.definicionTadasana{
+    grid-area: definicionTadasana;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.balasana{
+    grid-area: balasana;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(240, 216, 150);
+}
+.img-3:hover{
+    transform: scale(1.5);
+}
+.img-3{
+    grid-area: img-3;
+    padding-left: 30px;
+}
+.definicionBalasana{
+    grid-area: definicionBalasana;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.puente{
+    grid-area: puente;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(240, 150, 165);
+}
+.img-4:hover{
+    transform: scale(1.5);
+}
+.img-4{
+    grid-area: img-4;
+    padding-left: 40px;
+}
+.definicionPuente{
+    grid-area: definicionPuente;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.bidalasana{
+    grid-area: bidalasana;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(130, 146, 235);
+}
+.img-5:hover{
+    transform: scale(1.5);
+}
+.img-5{
+    grid-area: img-5;
+    padding-left: 20px;
+}
+.definicionBidalasana{
+    grid-area: definicionBidalasana;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.carpa{
+    grid-area: carpa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(146, 243, 142);
+}
+.img-6:hover{
+    transform: scale(1.5);
+}
+.img-6{
+    grid-area: img-6;
+    padding-left: 30px;
+}
+.definicionCarpa{
+    grid-area: definicionCarpa;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.cobra{
+    grid-area: cobra;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(253, 61, 61);
+}
+.img-7:hover{
+    transform: scale(1.5);
+}
+.img-7{
+    grid-area: img-7;
+    padding-left: 40px;
+}
+.definicionCobra{
+    grid-area: definicionCobra;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.silla{
+    grid-area: silla;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(245, 28, 154); 
+}
+.img-8:hover{
+    transform: scale(1.5);
+}
+.img-8{
+    grid-area: img-8;
+    padding-left: 20px;
+}
+.definicionSilla{
+    grid-area: definicionSilla;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.uttasana{
+    grid-area: uttasana;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(202, 28, 245); 
+}
+.img-9:hover{
+    transform: scale(1.5);
+}
+.img-9{
+    grid-area: img-9;
+    padding-left: 20px;
+}
+.definicionUttasana{
+    grid-area: definicionUttasana;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.arbol{
+    grid-area: arbol;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(28, 220, 245);  
+}
+.img-10:hover{
+    transform: scale(1.5);
+}
+.img-10{
+    grid-area: img-10;
+    padding-left: 30px;
+}
+.definicionArbol{
+    grid-area: definicionArbol;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.triangulo{
+    grid-area: triangulo;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(169, 245, 28);  
+}
+.img-11:hover{
+    transform: scale(1.5);
+}
+.img-11{
+    grid-area: img-11;
+    padding-left: 30px;
+}
+.definicionTriangulo{
+    grid-area: definicionTriangulo;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.tabla{
+    grid-area: tabla;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(211, 126, 14); 
+}
+.img-12:hover{
+    transform: scale(1.5);
+}
+.img-12{
+    grid-area: img-12;
+    padding-left: 40px;
+}
+.definicionTabla{
+    grid-area: definicionTabla;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+.plancha{
+    grid-area: plancha;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    color: rgb(54, 52, 49); 
+}
+.img-13:hover{
+    transform: scale(1.5);
+}
+.img-13{
+    grid-area: img-13;
+    padding-left: 40px;
+    
+}
+.definicionPlancha{
+    grid-area: definicionPlancha;
+    color: black;
+    font-size: x-small;
+    text-align: left;
+    padding:0px 10px 0px 50px
+}
+
+/*sobre mi*/
+
+.sobreMi{
+    font-size: smaller;
+    color: lightslategray;
+    background-image: linear-gradient(to bottom, rgb(194, 188, 188), white);
+    border-style: double;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.historia{
+    color: black;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vida{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-template-areas: "imagen1 yo"
+                         "viaje imagen2"
+                         "imagen3 meditar"
+                         "profesion imagen4";
+    justify-content: center;
+    align-items: center;  
+    margin: 0px 30px 0px 30px;    
+}
+.yo{
+    grid-area: yo;
+    font-size: 20px;
+    font-style: italic;
+    font-size: smaller; 
+}
+.imagen1{
+    grid-area: imagen1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.viaje{
+    grid-area: viaje;
+    font-size: 20px;
+    font-style: italic;
+    font-size: smaller;
+}
+.imagen2{
+    grid-area: imagen2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meditar{
+    grid-area: meditar;
+    font-size: 20px;
+    font-style: italic;
+    font-size: smaller;
+}
+.imagen3{
+    grid-area: imagen3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profesion{
+    grid-area: profesion;
+    font-size: 20px;
+    font-style: italic;
+    font-size: smaller;
+}
+.imagen4{
+    grid-area: imagen4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*meditacion*/
+
+.meditacion{
+    text-align: center;
+    color: lightslategray;
+    background-image: linear-gradient(to bottom, rgb(194, 188, 188), white);
+    border-style: double;
+    margin-bottom: 20px;
+    padding: 30px 0px 30px 0px;
+}
+.textos{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 50px 10px 50px;
+    padding: 10px 10px 10px 10px;
+    border-style: dotted; 
+}
+.tipos1{
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.vipassana{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: brown;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defVip{
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    font-size: medium;
+}
+.kundalini{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: blueviolet;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defKun{
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center; 
+    font-size: medium;
+}
+.chakra{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color:rgb(211, 126, 14);
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defCh{
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center; 
+    font-size: medium;
+}
+.zazen{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: green;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defZa{
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center; 
+    font-size: medium;
+}
+.mantra{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: grey;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defMan{
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center; 
+    font-size: medium;
+}
+.tonglen{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: rgb(65, 236, 179);
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defTon{
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center; 
+    font-size: medium;
+}
+.trascendental{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: yellow;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defTra{
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center; 
+    font-size: medium;
+    padding-bottom: 50px;
+}
+
+/*media-index*/
+
+@media screen and (min-width:600px){
+    .registro{
+        font-size: large;
+    }
+    .encabezado{
+        padding: 5rem 5rem 5rem 5rem;
+    }
+    main .titulo{
+        font-size: 4rem;
+    }
+    main .subtitulo{
+        font-size: 2rem     
+    }
+    .menu nav ul li{
+        font-size: large;
+        padding: 7px 7px 7px 7px;
+    }
+    .beneficios{
+        font-size: 2.5rem;
+    }
+    .parrafo{
+        margin: 0rem 2rem 5rem 2rem
+    }
+    .grid{
+        grid-template-columns:auto auto auto auto ;
+        grid-template-areas: "beneficios beneficios beneficios beneficios"
+                             "parrafo parrafo parrafo parrafo"
+                             "imagen-1 imagen-2 imagen-3 imagen-4";                             ;
+        
+    }
+}
+@media screen and (min-width:1000px){
+    .grid{
+        grid-template-columns:auto auto auto auto auto ;
+        grid-template-areas: "beneficios beneficios beneficios beneficios beneficios"
+                             "parrafo parrafo parrafo parrafo parrafo"
+                             "imagen-1 imagen-2 imagen-3 imagen-4 imagen-5";                             ;
+    }
+    .imagen-5{
+       display: block;
+       grid-area: imagen-5;
+    }
+    .parrafo{
+        margin: 0rem 10rem 5rem 10rem;
+}
+}
+/*media-que es el yoga*/
+
+@media screen and (min-width:600px){
+    .yoga{
+        font-size:larger;
+    }
+    .definicion{
+        font-size: large;
+    }
+    .subtitulo2{
+        font-size: 2rem;
+    }
+    .parrafo2{
+        font-size: large;
+    }
+    .tipo-1{
+        font-size: large;
+    }
+    .tipo-2{
+        font-size: large;
+    }
+    .tipo-3{
+        font-size: large;
+    }
+    .tipo-4{
+        font-size: large;
+    }
+    .tipo-5{
+        font-size: large;
+    }
+    .tipo-6{
+        font-size: large;
+    }
+    .tipo-7{
+        font-size: large;
+    }
+    .grid-1{
+        grid-template-areas: "subtitulo2 subtitulo2 subtitulo2 subtitulo2"
+                             "parrafo2 parrafo2 parrafo2 parrafo2"
+                             "tipo-1 tipo-1 tipo-2 tipo-2" 
+                             "tipo-3 tipo-4 tipo-4 tipo-5"
+                             "tipo-6 tipo-6 tipo-7 tipo-7"
+                             "imagen-a imagen-b imagen-b imagen-c";
+  
+    } 
+    .imagen-c{
+        display: block;
+        grid-area: imagen-c;
+    }
+}
+@media screen and (min-width:1000px){
+    .yoga{
+        font-size:larger;
+    }
+    .definicion{
+        font-size: large;
+    }
+    .tipo-1{
+        font-size: x-large;
+    }
+    .tipo-2{
+        font-size: x-large;
+    }
+    .tipo-3{
+        font-size: x-large;
+    }
+    .tipo-4{
+        font-size: x-large;
+    }
+    .tipo-5{
+        font-size: x-large;
+    }
+    .tipo-6{
+        font-size: x-large;
+    }
+    .tipo-7{
+        font-size: x-large;
+    }
+    .grid-1{
+        grid-template-areas: "subtitulo2 subtitulo2 subtitulo2 subtitulo2"
+                             "parrafo2 parrafo2 parrafo2 parrafo2"
+                             "tipo-1 tipo-1 tipo-2 tipo-2" 
+                             "tipo-3 tipo-4 tipo-4 tipo-5"
+                             "tipo-6 tipo-6 tipo-7 tipo-7"
+                             "imagen-a imagen-b imagen-c imagen-d";
+  
+    } 
+    .imagen-c{
+        display: block;
+        grid-area: imagen-c;
+    }
+    .imagen-d{
+        display: block;
+        grid-area: imagen-d;
+    }
+}
+ /*media-chakras*/
+ @media screen and (min-width:600px){
+    .chakras{
+        font-size: smaller;
+        background-image: url(../img/chakras.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+    }
+    .queSonLosChakras{
+       font-size: smaller;
+    } 
+    .section-p{
+        font-size: smaller;
+    }
+   
+}
+@media screen and (min-width:1000px){
+    .chakras{
+        font-size: large;
+        background-image: url(../img/chakras.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center;
+        padding: 2rem 0rem 0rem 2rem;
+    }
+    .queSonLosChakras{
+       font-size: x-large;
+    } 
+    .section-p{
+        font-size: large;
+    }
+
+}
+
+/*media-posturas*/
+
+@media screen and (min-width:600px){
+    .asanas{
+        font-size: large;
+    }
+    .parrafo1{
+        font-size: smaller;
+    }
+    .subtitulo3{
+        font-size: large;
+    }
+    .posturas div{
+        font-size: smaller;
+        margin: 10px 0px 10px 0px;
+    }
+}
+@media screen and (min-width:1000px){
+    .asanas{
+        font-size: xx-large;
+    }
+    .parrafo1{
+        font-size: larger;
+    }
+    .subtitulo3{
+        font-size: xx-large;
+    }
+    .posturas div{
+        font-size: large;
+        margin: 10px 0px 10px 0px;
+    }
+}
+
+/*media-sobre mi*/
+
+@media screen and (min-width:600px){
+    
+.sobreMi{
+    font-size: large;
+}
+.historia{
+    font-size: large;
+}
+.yo{
+    font-size: large;
+}
+.imagen1{
+    width: 250px;
+}
+.viaje{
+    font-size: large;
+}
+.imagen2{
+    width: 250px; 
+}
+.meditar{
+    font-size: large;
+}
+.imagen3{
+    width: 250px;
+}
+.profesion{
+    font-size: large;
+}
+.imagen4{
+    width: 250px;
+}
+}
+@media screen and (min-width:1000px){
+    .sobreMi{
+        font-size: xx-large;
+    }
+    .historia{
+        font-size: x-large;
+    }
+    .imagen1{
+        width: 500px;
+    }
+    .imagen2{
+        width: 500px; 
+    }
+    .imagen3{
+        width: 500px;
+    }
+    .imagen4{
+        width: 500px;
+    }
+}
