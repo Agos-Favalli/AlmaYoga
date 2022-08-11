@@ -208,6 +208,16 @@ main .subtitulo{
         transform: scale(1.5) translateY(-0.75em);
       }   
 }
+.namaste{
+    text-align: center;
+    font-size: xx-large;
+    color: brown;
+    font-style: italic;
+}
+.namaste:hover{
+    transform: rotate(360deg);
+    transition: 4s;
+}
 
 /*que es el yoga*/
 
