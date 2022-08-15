@@ -7,15 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>SOBRE MI</title>
 </head>
 <body class="fondo">
-    <h1 class="sobreMi">SOBRE MI</h1>
-    <h2 class="historia"> <b>Como y Cuando llego el YOGA a mi vida </b></h2>
+    <header class="container">
+     <h1 class="sobreMi row">SOBRE MI</h1>
+     <h2 class="historia col"> <b>Como y Cuando llego el YOGA a mi vida </b></h2>
+       <nav class="footer">
+          <ul>
+             <li>
+               <a href="#pie-de-pagina">ir al footer</a>
+             </li>
+          </ul>
+       </nav>
+    </header>
+    
  
     <main class="vida">   
         <div class="imagen1">
@@ -51,24 +62,30 @@
              </p>
         </div>
     </main>
-
-    <nav class="footer">
-        <ul>
-            <li>
-               <a href="#pie-de-pagina">ir al footer</a>
-            </li>
-            <li>
-               <a href="../index.html">volver a la home</a>
-            </li>
-            <li>
-                <a href="../pages/meditacion.html">Anterior</a>
-            </li> 
+    <nav class="navegacion container" aria-label="Page navigation example">
+        <ul class="pagination row text-center">
+          <li class="page-item col-2"><a class="page-link rounded-circle border-dark text-warning" href="../pages/queeseloyoga.html">1</a></li>
+          <li class="page-item col-2"><a class="page-link rounded-circle border-dark text-danger" href="../pages/chakras.html">2</a></li>
+          <li class="page-item col-2"><a class="page-link rounded-circle border-dark text-success" href="../pages/posturas.html">3</a></li>
+          <li class="page-item col-2"><a class="page-link rounded-circle border-dark text-primary" href="../pages/meditacion.html">4</a></li>
+          <li class="page-item col-2"><a class="page-link rounded-circle border-dark text-secondary" href="../pages/sobremi.html">5</a></li>
+          <li class="page-item col-2"><a class="page-link rounded-circle border-dark" href="../index.html"> <img src="../img/CASITA.png" width="100%" alt=""> </a></li>
         </ul>
-    </nav>
+      </nav>
+    
     
  
-    <FOOter id="pie-de-pagina" >
-        <h3> <b> <i> Todos los derechos de autor </i> </b> </h3> 
+    
+    <FOOter id="pie-de-pagina" class="container text-center bg-secondary text-white rounded">
+        <p class="row font-italic text-sm"> <b> <i> Todos los derechos de autor</i></b></p>
     </FOOter>
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
