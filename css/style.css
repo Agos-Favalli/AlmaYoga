@@ -68,22 +68,7 @@
 
 /*index*/
 
-.grid{
-    display: flex;
-    justify-content: center;
-}
-.grid .registro:hover{
-    border: 1px solid snow;
-}
-.registro{
-    background-color: rgb(238, 238, 245);
-    border-style: outset;
-    border-radius: 10px;
-    margin-top: 5px;
-    padding: 5px 5px 5px 5px;
-    font-style: oblique;
-    font-size: x-small;
-}
+
 .bodys{
     background-color: rgb(235, 230, 225);
 }
@@ -92,8 +77,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    padding: 3rem 3rem 3rem 3rem;
     margin-bottom: 1rem;
+    margin-top: 3rem;
 }
 main .titulo{
     animation: star 10s ease-out infinite;
@@ -105,33 +90,17 @@ main .titulo{
     font-size: 2rem;
     animation-name: yoga;
     animation-duration: 6s;
+    margin-top: 5rem;
+    text-align: center;
 }
 main .subtitulo{
     display: flex;
     justify-content: center;
     text-align: center;
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size: 1rem     
-}
-.menu nav ul li:hover{
-    border: 1px solid snow;
-}
-.menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.menu nav ul{
-    display: flex;
-    column-gap: 5px;
-}
-.menu nav ul li{
-    list-style: none;
-    font-size: x-small;
-    background-color: rgb(238, 182, 238);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 25px;
-    padding: 5px 5px 5px 5px;
+    font-size: 1rem;
+    padding: 5rem; 
+    text-align: center;
 }
 .grid{
     display: grid;
@@ -156,12 +125,14 @@ main .subtitulo{
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 10px;
+    font-size: large;
 }
 .parrafo{
     grid-area: parrafo;
     font-style: oblique;
     text-align: center;
     margin-bottom: 3rem;
+    font-size: small;
 }
 .imagen-1{
     grid-area: imagen-1;
@@ -194,14 +165,7 @@ main .subtitulo{
     right: 0px;
     width: 3%;
 }
-#pie-de-pagina{
-    background-color: rgb(235, 230, 225);
-    text-align: center;
-    font-size: 15px;
-    border-color: black;
-    border-style: double;
-    margin-top: 100px;
-}
+
 @keyframes yoga{
     0% {
         opacity: 0;
@@ -210,9 +174,10 @@ main .subtitulo{
 }
 .namaste{
     text-align: center;
-    font-size: xx-large;
+    font-size: small;
     color: brown;
     font-style: italic;
+    margin-bottom: 2rem;
 }
 .namaste:hover{
     transform: rotate(360deg);
@@ -890,134 +855,44 @@ main .tipo-7:hover{
 /*meditacion*/
 
 .meditacion{
-    text-align: center;
+    font-size: small;
     color: lightslategray;
     background-image: linear-gradient(to bottom, rgb(194, 188, 188), white);
     border-style: double;
     margin-bottom: 20px;
     padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
 }
 .textos{
+    font-size: small;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px 50px 10px 50px;
+    margin: 10px 50px 0px 50px;
     padding: 10px 10px 10px 10px;
-    border-style: dotted; 
+    border-style: dotted;
+    font-style: italic;
 }
 .tipos1{
-    text-align: center;
-    font-variant: small-caps;
+    color: lightslategray;
+    font-family: 'Cormorant SC', serif; font-family: 'Edu VIC WA NT Beginner', cursive;
     text-decoration: underline;
+    font-size: small;
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
-    padding-bottom: 20px;
-}
-.vipassana{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    color: brown;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.defVip{
-    color: black;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    text-align: center;
-    font-size: medium;
-}
-.kundalini{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    color: blueviolet;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.defKun{
-    color: black;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    text-align: center; 
-    font-size: medium;
-}
-.chakra{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    color:rgb(211, 126, 14);
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.defCh{
-    color: black;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    text-align: center; 
-    font-size: medium;
-}
-.zazen{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    color: green;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.defZa{
-    color: black;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    text-align: center; 
-    font-size: medium;
-}
-.mantra{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    color: grey;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.defMan{
-    color: black;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    text-align: center; 
-    font-size: medium;
-}
-.tonglen{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    color: rgb(65, 236, 179);
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.defTon{
-    color: black;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    text-align: center; 
-    font-size: medium;
-}
-.trascendental{
-    margin-left: 30px;
-    margin-bottom: 30px;
-    color: yellow;
-    font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.defTra{
-    color: black;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    text-align: center; 
-    font-size: medium;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
+#pie-de-pagina{
+    text-align: center;
+}
+/*pages2*/
+/*yoga*/
+.navegacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;  
+}
 /*media-index*/
 
 @media screen and (min-width:600px){
@@ -1050,6 +925,10 @@ main .tipo-7:hover{
                              "imagen-1 imagen-2 imagen-3 imagen-4";                             ;
         
     }
+    .namaste{
+        font-size: large;
+    }
+    
 }
 @media screen and (min-width:1000px){
     .grid{
@@ -1064,6 +943,7 @@ main .tipo-7:hover{
     }
     .parrafo{
         margin: 0rem 10rem 5rem 10rem;
+        font-size: large;
 }
 }
 /*media-que es el yoga*/
@@ -1284,4 +1164,32 @@ main .tipo-7:hover{
     .imagen4{
         width: 500px;
     }
+}
+
+/*media-meditacion*/
+
+@media screen and (min-width:600px){
+    .meditacion{
+        font-size: large;
+    }
+    .tipos{
+        font-size: large;
+    }
+    .textos{
+        font-size: smaller;
+    }
+    
+}
+
+@media screen and (min-width:1000px){
+    .meditacion{
+        font-size: x-large;
+    }
+    .tipos1{
+        font-size: x-large;
+    }
+    .textos{
+        font-size: large;
+    }
+    
 }
