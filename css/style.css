@@ -882,7 +882,9 @@ main .tipo-7:hover{
     margin-top: 20px;
     margin-bottom: 50px;
 }
-
+.item-2{
+    font-size: small;
+}
 #pie-de-pagina{
     text-align: center;
 }
@@ -892,6 +894,64 @@ main .tipo-7:hover{
     display: flex;
     justify-content: center;
     margin-top: 10%;  
+}
+.lista{
+    list-style: none;
+    font-style: oblique;
+}
+.sub{
+    text-decoration: underline;
+ }
+/*bhakti*/
+.frase{
+    font-style: italic;
+    margin: 3rem 5rem 3rem 5rem;
+    background-color: rgb(233, 233, 147);
+}
+.bhakti{
+    font-size: small;
+}
+.hatha{
+    font-size: small;
+}
+.iyengar{
+    font-size: small;
+}
+.jnana{
+    font-size: small;
+}
+.karma{
+    font-size: small;
+}
+.kundalini{
+    font-size: small;
+}
+.raja{
+    font-size: small;
+}
+
+@media screen and (min-width:1000px){
+    .bhakti{
+        font-size: large;
+    }
+    .hatha{
+        font-size: large;
+    }
+    .iyengar{
+        font-size: large;
+    }
+    .jnana{
+        font-size: large;
+    }
+    .karma{
+        font-size: large;
+    }
+    .kundalini{
+        font-size: large;
+    }
+    .raja{
+        font-size: large;
+    }
 }
 /*media-index*/
 
@@ -1041,6 +1101,7 @@ main .tipo-7:hover{
         display: block;
         grid-area: imagen-d;
     }
+
 }
  /*media-chakras*/
  @media screen and (min-width:600px){
@@ -1180,7 +1241,6 @@ main .tipo-7:hover{
     }
     
 }
-
 @media screen and (min-width:1000px){
     .meditacion{
         font-size: x-large;
@@ -1191,5 +1251,9 @@ main .tipo-7:hover{
     .textos{
         font-size: large;
     }
-    
+    .item-2{
+        font-size: large;
+    }
 }
+
+
