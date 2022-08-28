@@ -1,0 +1,14 @@
+@mixin propiedades {
+    font-size: small;
+    background-color: rgb(238, 182, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+    padding: 5px 5px 5px 5px;
+};
+
+@mixin medidas ($width, $padding, $margin){
+    width: $width;
+    padding: $padding;
+    margin: $margin
+}
+
