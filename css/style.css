@@ -30,7 +30,6 @@
   margin: auto;
   background-color: #f3efeb;
   font-size: large;
-  font-style: oblique;
   text-align: center; }
   .registro .boton {
     margin: 20px;
@@ -127,8 +126,8 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: right;
-  font-size: x-small; }
+  justify-content: center;
+  font-size: larger; }
 
 .footer ul li {
   list-style: none; }

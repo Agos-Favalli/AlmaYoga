@@ -16,7 +16,6 @@
     @include medidas(300px, 50px, auto);
     background-color: $color-principal;
     font-size: large;
-    font-style: map-get($map: $standar, $key: font-standar );
     text-align: map-get($map: $standar, $key: text-standar );
     .boton{
         margin: 20px;
@@ -134,8 +133,8 @@
 .footer{
     display: flex;
     flex-direction: row;
-    justify-content: right;
-    font-size: x-small;
+    justify-content: center;
+    font-size: larger;
 }
 .footer{
     ul{
